@@ -6,11 +6,13 @@
 > `git clone git@github.com:dangai-dev/origo-teste-pratico.git`
 2. Instale as dependências do projeto via Composer 
 > `composer install`
-3. Rode as migrations através do comando
+3. Crie o banco de dados no Mysql
+> `CREATE DATABASE 'origo'`
+4. Rode as migrations através do comando
 > `php artisan migrate`
-3. Suba um servidor local através do artisan | http://localhost:8000
+5. Suba um servidor local através do artisan | http://localhost:8000
 > `php artisan serve`
-4. Utilizando-se do Postman, teste os endpoints da API. (http://localhost:8000/api/link)
+6. Utilizando-se do Postman, teste os endpoints da API. (http://localhost:8000/api/link)
 
 ## Requisitos
 
